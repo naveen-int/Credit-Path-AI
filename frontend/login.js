@@ -1,5 +1,7 @@
 // login.js
-const API = "http://127.0.0.1:8000";
+//const API = "http://127.0.0.1:8000";
+const API = "https://credit-path-ai-5i5a.onrender.com";
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const btnLogin = document.getElementById('btnLogin');
@@ -67,3 +69,4 @@ async function onRegister(){
     alert('Backend unreachable');
   }
 }
+
