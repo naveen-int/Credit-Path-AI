@@ -1,5 +1,33 @@
 # Credit-Path-AI
 AI Project to provide loan default risk and recommend recovery action
-## Dataset
-Source: Kaggle Loan Default Dataset
-Stored in data/loan_data.csv
+
+
+Credit Path AI is an end-to-end credit risk prediction system that evaluates the likelihood of loan default using a trained XGBoost machine learning model. The application collects borrower information through a clean and interactive frontend interface and processes it using a FastAPI-based backend.
+
+The backend validates the input data, runs it through the trained model, and returns a default risk prediction with probability, simulating a real-world credit decision workflow.
+
+#How It Works
+
+1.The user enters borrower details in the frontend form.
+
+2.The frontend sends the data as a JSON request to the FastAPI backend using a POST API call.
+
+3.The backend validates the inputs and prepares them for the ML model.
+
+4.The XGBoost model predicts the probability of loan default.
+
+5.Based on the probability, a risk level is determined.
+
+6.The prediction result is returned to the frontend and displayed to the user.
+
+#Tech Stack
+
+Python FastAPI XGBoost HTML, CSS, JavaScript
+
+#Key Features
+
+Structured borrower input form REST API for predictions Machine learning model inference Real-time risk prediction output
+
+#Use Case
+
+Loan default risk assessment and credit decision support
